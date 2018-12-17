@@ -13,13 +13,19 @@ import java.util.List;
 public interface MensajeDAO {
 
     @Insert
-    void insert(Mensaje mensaje);
+    void insertar(Mensaje mensaje);
 
     @Update
     void update(Mensaje mensaje);
 
     @Delete
     void delete(Mensaje mensaje);
+
+    @Query("select * from mensaje where id = :id")
+    Mensaje get(long id);
+
+    @Query("select * from mensaje where id = :id")
+    LiveData<Mensaje> getLive(long id);
 
     @Query("DELETE FROM mensaje")
     void deleteAll();
@@ -28,8 +34,11 @@ public interface MensajeDAO {
     List<Mensaje> getAll();
 
     @Query("SELECT * from mensaje ORDER BY id ASC")
-    LiveData<List<Mensaje>> getAllAlive();
+    LiveData<List<Mensaje>> getAllLive();
 
     @Query("SELECT * from mensaje WHERE origen = :origen ORDER BY id ASC")
     List<Mensaje> getFrom(String origen);
+
+    @Query("SELECT * from mensaje WHERE origen = :origen ORDER BY id ASC")
+    LiveData<List<Mensaje>> getFromLive(String origen);
 }
