@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323479841678",
+    "firebase_url": "https://conversacion-7b1af.firebaseio.com",
+    "project_id": "conversacion-7b1af",
+    "storage_bucket": "conversacion-7b1af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323479841678:android:f31d3e7fa5c4099c",
+        "android_client_info": {
+          "package_name": "com.example.dam.conversacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323479841678-h2so8hgvq7kc3dvsk9v3bq4kjap33tgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dam.conversacion",
+            "certificate_hash": "3bce02d5064c68c2181b8e1929f5616c9e4a3423"
+          }
+        },
+        {
+          "client_id": "323479841678-7862ju25rakk88v0gu8kj78vp0pvc2r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVixgf_bCAebGfJdEQMMTrAyvVkyeGujw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323479841678-7862ju25rakk88v0gu8kj78vp0pvc2r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
