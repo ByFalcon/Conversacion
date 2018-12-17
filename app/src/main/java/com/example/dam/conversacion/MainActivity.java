@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         modelo.insert(
-                new Mensaje(2, "o", "d",
+                new Mensaje(0, "o", "d",
                         "t", "2018-12-17"));
         modelo.getAllMensajes().observe(this, new Observer<List<Mensaje>>() {
             @Override
